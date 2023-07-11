@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background: rgb(140,140,140);
+background: linear-gradient(69deg, rgba(140,140,140,1) 19%, rgba(196,196,196,1) 49%, rgba(89,89,89,1) 88%);
+}
+
 header{
     background-image: url('fondo-header.jpg');
     background-position: center;
@@ -6,3 +19,86 @@ header{
     height: 88.9vb;
 
 }
+
+.bg-special{
+    background-color: #c4c4c46a;
+    box-shadow: 0 8px 32px 0 rgba(13, 13, 13, 0.5);
+    backdrop-filter: blur(3px);
+    position: fixed;
+}
+
+.bg-special-sect{
+    background-color: #cbc5c554;
+    box-shadow: 0 8px 32px 0 rgba(13, 13, 13, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+.bt-special {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 3em;
+    width: 12em;
+    background: rgba(239, 193, 94, 0.69);
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid rgba(0, 0, 0, 0.607);
+    outline: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+   }
+   
+   .bt-special:hover {
+    background: rgba(41, 139, 30, 0.736);
+    color: #ffffff;
+
+    animation: squeeze3124 0.9s both;
+   }
+   
+   @keyframes squeeze3124 {
+    0% {
+     -webkit-transform: scale3d(1, 1, 1);
+     transform: scale3d(1, 1, 1);
+    }
+   
+    30% {
+     -webkit-transform: scale3d(1.25, 0.75, 1);
+     transform: scale3d(1.25, 0.75, 1);
+    }
+   
+    40% {
+     -webkit-transform: scale3d(0.75, 1.25, 1);
+     transform: scale3d(0.75, 1.25, 1);
+    }
+   
+    50% {
+     -webkit-transform: scale3d(1.15, 0.85, 1);
+     transform: scale3d(1.15, 0.85, 1);
+    }
+   
+    65% {
+     -webkit-transform: scale3d(0.95, 1.05, 1);
+     transform: scale3d(0.95, 1.05, 1);
+    }
+   
+    75% {
+     -webkit-transform: scale3d(1.05, 0.95, 1);
+     transform: scale3d(1.05, 0.95, 1);
+    }
+   
+    100% {
+     -webkit-transform: scale3d(1, 1, 1);
+     transform: scale3d(1, 1, 1);
+    }
+   }
+
+   .about-text{
+    text-align: justify;
+    margin-top: 3%;
+   
+   }
+

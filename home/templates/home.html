@@ -8,37 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!-- Navegacion superior -->
-    <nav class="navbar navbar-expand-sm bg-body-tertiary ">
-        <div class="container-fluid ">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
 
-            <div class="d-flex justify-content-evenly container py-4">
-            <ul class="navbar-nav">
-              <li class="nav-item mx-5">
-                <a class="nav-link active" aria-current="page" href="#">Historia</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="#">Carta</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="#">Equipo</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="#">Ubicación</a>
-              </li>
-            </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
   
      <!-- cabecera -->
+     
      <header class="position-relative">
+         <!-- Navegacion superior -->
+    <nav class="navbar navbar-expand-sm bg-special container-fluid ">
+      <div class="container-fluid ">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <div class="d-flex justify-content-evenly container py-4">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-5">
+              <a class="nav-link active" aria-current="page" href="#">Historia</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="#">Carta</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="#">Equipo</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="#">Ubicación</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
         <div class="container-fluid text-white ">
             <div class="position-absolute top-50 start-0 translate-middle-y ms-4">
                 <h1 class="ms-5">BIENVENIDO A YUMI RESTAURANTES</h1>
@@ -49,14 +51,15 @@
 
 
     <main class="mt-5">
-        <section>
+        <section class="bg-special-sect container py-5 rounded-3 ">
             <h1 class="text-center">Sobre Nosotros</h1>
-            <div class="mt-5 d-flex container w-75 bg-dark">
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aut magni natus consequatur quo quas quibusdam ratione, eum omnis similique architecto expedita soluta doloremque doloribus provident vitae? Mollitia, cumque illo!
+            <div class="mt-5 py-3 d-flex  flex-lg-nowrap flex-wrap-reverse container w-100 ">
+                <div class=" text-white mx-3 about-text">
+                  <h1 class="text-center">¡Bienvenidos a "El Jardín del Bosque"! </h1>
+                  <p class="about-text">Un restaurante campestre de primer nivel que combina la belleza de la naturaleza con una experiencia gastronómica excepcional. Nuestros ingredientes frescos y locales se transforman en platos innovadores que sorprenden al paladar. Disfruten de un ambiente relajante y acogedor, donde nuestro servicio impecable garantiza una experiencia memorable. Además, ofrecemos espacios al aire libre para eventos especiales, brindando la oportunidad de celebrar momentos únicos en medio de la naturaleza. Descubran la magia de "El Jardín del Bosque" y déjense seducir por la fusión perfecta entre la gastronomía y el entorno natural. ¡Los esperamos con los brazos abiertos!</p>
                 </div>
-                <div>
-                    <img src="logo.jpg" class="img-fluid" alt="">
+                <div class="my-auto">
+                    <img src="logo.jpg" class="img-fluid rounded-2" alt="">
                 </div>
             </div>
         </section>
@@ -64,23 +67,32 @@
         <section class="mt-5">
             <h1 class="text-center">Nuestros Locales</h1>
             <div class="mt-5 d-flex flex-wrap container-fluid  bg-dark justify-content-center">
+
+                  <div class="">
+                    <img src="ambiente1.jpg" class="mx-3 mt-3 img-fluid rounded-3 " alt="" >
+                  </div>
                 
-                    <img src="ambiente1.jpg" class="mx-3 mt-3 img-fluid" alt="" >
-                
-                
-                    <img src="ambiente3.jpg" class="mx-3 mt-3 img-fluid" alt="" >
-                
-                
-                    <img src="ambiente4.jpg" class="mx-3 mt-3 img-fluid" alt="" >
-                
-                
-                    <img src="ambiente2.jpg" class="mx-3 mt-3 img-fluid" alt="" >
-            
+                  <div class="">
+                    <img src="ambiente3.jpg" class="mx-3 mt-3 img-fluid rounded-3 " alt="" >
+                  </div>
+
+                  <div class="">
+                    <img src="ambiente4.jpg" class="mx-3 mt-3 img-fluid rounded-3 " alt="" >
+                  </div>
+
+                  <div class="">
+                    <img src="ambiente2.jpg" class="mx-3 mt-3 img-fluid rounded-3 " alt="" >
+                  </div>
+
             </div>
         </section>
     </main>
 
-
+    <div class="container-fluid text-end">
+    <button class="bt-special"> Reserva Aquí
+    </button>
+  </div>
+  
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
 </body>
